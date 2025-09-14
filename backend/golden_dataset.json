@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the difference between VLOOKUP and XLOOKUP in Excel?",
+    "samples": [
+      {
+        "id": "excellent",
+        "answer": "XLOOKUP is a modern successor to VLOOKUP. Key differences are: 1. XLOOKUP defaults to an exact match, which is safer than VLOOKUP's approximate match default. 2. XLOOKUP can look to the left of the lookup column, whereas VLOOKUP can only look to the right. 3. XLOOKUP can return multiple columns or entire rows. 4. It has built-in error handling with its [if_not_found] argument, replacing the need for wrapping VLOOKUP in IFERROR.",
+        "expert_evaluation": "A comprehensive and accurate answer. The candidate correctly identifies the four primary advantages of XLOOKUP over VLOOKUP, demonstrating a deep understanding."
+      },
+      {
+        "id": "acceptable",
+        "answer": "XLOOKUP is better than VLOOKUP. It can look up stuff to the left and it does an exact match automatically so you don't mess it up.",
+        "expert_evaluation": "The answer is correct but lacks depth. The candidate understands the two most common benefits (left-lookup and exact match default) but misses other key features like returning multiple columns and built-in error handling."
+      },
+      {
+        "id": "poor",
+        "answer": "They are both for looking up data. I just use VLOOKUP because I know it.",
+        "expert_evaluation": "A non-answer. The candidate fails to describe any differences and shows a lack of curiosity or knowledge about modern Excel functions. This is a major red flag."
+      }
+    ]
+  }
+]

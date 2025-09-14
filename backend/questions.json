@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "topic": "Lookup Functions",
+        "text": "What is the difference between VLOOKUP and XLOOKUP in Excel?"
+    },
+    {
+        "id": 2,
+        "topic": "Data Aggregation",
+        "text": "Explain the purpose of a PivotTable and give an example of when you would use one."
+    },
+    {
+        "id": 3,
+        "topic": "Conditional Logic",
+        "text": "How would you use the SUMIFS function? Describe its parameters."
+    },
+    {
+        "id": 4,
+        "topic": "Advanced Functions",
+        "text": "What is the difference between the INDEX and MATCH functions, and why might you use them together?"
+    }
+]
